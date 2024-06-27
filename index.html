@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <title>House project</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="header__wrapper-logo" href="#!"
+            ><img class="logo" src="./images/logo.svg" alt="Inc. House"
+          /></a>
+          <nav class="header__wrapper-nav">
+            <button class="burger-menu">
+              <img
+                class="burger-icon"
+                src="./images/burger.svg"
+                alt="burger-menu"
+              />
+            </button>
+            <ul class="header__wrapper-menu menu__active">
+              <li class="menu-list">
+                <a class="menu-list_link" href="#!">Репродукции</a>
+              </li>
+              <li class="menu-list">
+                <a class="menu-list_link" href="#!">Новинки</a>
+              </li>
+              <li class="menu-list">
+                <a class="menu-list_link" href="#!">О нас</a>
+              </li>
+            </ul>
+            <a class="cart-link" href="#!"
+              ><img src="./images/buy.svg" alt="cart"
+            /></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section__hero">
+          <div class="section__hero-image">
+            <img src="./images/bird.png" alt="bird-image" />
+          </div>
+          <div class="section__hero-text">
+            <h1 class="hero__title">
+              Реплики картин от
+              <span class="hero__title_green">Ink. House</span>
+            </h1>
+            <p class="section__hero-paragraph">
+              Высокое качество отрисовки на плотной бумаге или льняном холсте.
+              Редкие произведения, доступные цены.
+            </p>
+            <a href="#!" class="button hero__button-link">Продукция</a>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section__reproduct">
+          <div class="section__reproduct-header">
+            <h2 class="section__reproduct-title">Репродукции</h2>
+            <ul class="tabs">
+              <li class="tabs_item">
+                <button class="button-tab active-button">Франция</button>
+              </li>
+              <li class="tabs_item">
+                <button class="button-tab">Германия</button>
+              </li>
+              <li class="tabs_item">
+                <button class="button-tab">Англия</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="section__products">
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet.jpg"
+                    media="(max-width: 700px)" />
+                  <source srcset="/images/03.jpg" media="(max-width: 768px)" />
+                  <img src="./images/card01.jpg" alt="1" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Марсель Руссо</span>
+                  <h3 class="product-name">Охота Амура</h3>
+                  <span class="product-props">Холст, масло (50х80)</span>
+                  <div class="product-price">14 500 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile-1.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet-1.jpg"
+                    media="(max-width: 700px)" />
+                  <source
+                    srcset="./images/03-1.jpg"
+                    media="(max-width: 768px)" />
+                  <img src="./images/card02.jpg" alt="2" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Анри Селин</span>
+                  <h3 class="product-name">Дама с собачкой</h3>
+                  <span class="product-props">Акрил, бумага (50х80) </span>
+                  <div class="product-price">16 500 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile-2.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet-2.jpg"
+                    media="(max-width: 700px)" />
+                  <source
+                    srcset="./images/03-2.jpg"
+                    media="(max-width: 768px)" />
+                  <img src="./images/card03.jpg" alt="3" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Франсуа Дюпон</span>
+                  <h3 class="product-name">Процедура</h3>
+                  <span class="product-props">Цветная литография (40х60) </span>
+                  <div class="product-price">20 000 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile-3.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet-3.jpg"
+                    media="(max-width: 700px)" />
+                  <source
+                    srcset="./images/03-3.jpg"
+                    media="(max-width: 768px)" />
+                  <img src="./images/card04.jpg" alt="4" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Луи Детуш</span>
+                  <h3 class="product-name">Роза</h3>
+                  <span class="product-props">Бумага, акрил (50х80) </span>
+                  <div class="product-price">12 000 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile-4.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet-4.jpg"
+                    media="(max-width: 700px)" />
+                  <source
+                    srcset="./images/03-4.jpg"
+                    media="(max-width: 768px)" />
+                  <img src="./images/card05.jpg" alt="5" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Франсуа Дюпон</span>
+                  <h3 class="product-name">Птичья трапеза</h3>
+                  <span class="product-props">Цветная литография (40х60) </span>
+                  <div class="product-price">22 500 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="section__products-cart">
+              <article class="product">
+                <picture
+                  ><source
+                    srcset="./images/03mobile-5.jpg"
+                    media="(max-width: 480px)" />
+                  <source
+                    srcset="./images/03510tablet-5.jpg"
+                    media="(max-width: 700px)" />
+                  <source
+                    srcset="./images/03-5.jpg"
+                    media="(max-width: 768px)" />
+                  <img src="./images/card06.jpg" alt="6" class="pic_img"
+                /></picture>
+                <div class="product-info">
+                  <span class="product-author">Пьер Моранж</span>
+                  <h3 class="product-name">Пейзаж с рыбой</h3>
+                  <span class="product-props">Цветная литография (40х60) </span>
+                  <div class="product-price">20 000 руб</div>
+                  <button class="button button_card">В корзину</button>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="section__colection">
+        <div class="container">
+          <div class="section__colection-title">
+            <h2>Новая коллекция французских авторов</h2>
+          </div>
+          <div class="section__colection-text">
+            <div class="first-text">
+              Сложно сказать, почему акционеры крупнейших компаний призывают нас
+              к новым свершениям, которые, в свою очередь, должны быть
+              заблокированы в рамках своих собственных рациональных ограничений.
+            </div>
+            <div class="second-text">
+              Принимая во внимание показатели успешности, граница обучения
+              кадров предопределяет высокую востребованность направлений
+              прогрессивного развития.
+            </div>
+          </div>
+          <a href="#!" class="button button_yellow">Ознакомиться</a>
+        </div>
+      </section>
+      <div class="container">
+        <section class="section__our-team">
+          <img src="./images/our-team.png" alt="our-teamimg" />
+          <div class="our-team__info">
+            <h2 class="our-team__title">Наша команда</h2>
+            <p class="out-team__text">
+              Значимость этих проблем настолько очевидна, что базовый вектор
+              развития позволяет оценить значение экспериментов, поражающих
+              по своей масштабности и грандиозности. Мы вынуждены отталкиваться
+              от того, что консультация с широким активом.
+            </p>
+            <div class="our-team__images">
+              <img src="./images/01our-team.png" alt="portret" /><img
+                src="./images/02our-team.png"
+                alt="portret"
+              /><img src="./images/03our-team.png" alt="portret" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo-phone">
+            <img
+              class="footer-logo"
+              src="./images/starlogo.svg"
+              alt="starlogo"
+            />
+            <div class="footer-phone">
+              <a href="tel:+79995435454">+7 (999) 543-54-54</a>
+              <div class="workshop">Мастерская</div>
+            </div>
+          </div>
+          <div class="adaptive-block">
+            <ul class="footer__info-list">
+              <li class="info-item">
+                <h3 class="info-title">Репродукции</h3>
+                <a href="#!">Франция</a><a href="#!">Германия</a
+                ><a href="#!">Англия</a>
+              </li>
+              <li class="info-item">
+                <h3 class="info-title">Новинки</h3>
+                <a href="#!">2021</a><a href="#!">2020</a>
+              </li>
+              <li class="info-item">
+                <h3 class="info-title">О нас</h3>
+                <a href="#!">Художники</a><a href="#!">Менеджеры</a>
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <ul class="socials-list">
+                <li class="social-item">
+                  <a href="#!"
+                    ><img src="./images/facebook.svg" alt="facebook"
+                  /></a>
+                </li>
+                <li class="social-item">
+                  <a href="#!"
+                    ><img src="./images/instagram.svg" alt="instagram"
+                  /></a>
+                </li>
+                <li class="social-item">
+                  <a href="#!"
+                    ><img src="./images/youtube.svg" alt="youtube"
+                  /></a>
+                </li>
+              </ul>
+              <div class="social-rights">
+                <span class="company-name">Ink. House ®</span>
+                <span class="rights">All rights reserved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./javascript/javascript.js"></script>
+  </body>
+</html>
